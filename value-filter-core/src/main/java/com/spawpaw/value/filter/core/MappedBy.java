@@ -11,5 +11,5 @@ public @interface MappedBy {
     /**
      * 使用哪个值映射器
      */
-    Class<? extends ValueMapper> mappedBy();
+    Class<? extends ValueFilter> mappedBy();
 }

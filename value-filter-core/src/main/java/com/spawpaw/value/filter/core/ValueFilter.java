@@ -8,7 +8,7 @@ import java.util.List;
  *
  * @param <T>
  */
-public interface ValueMapper<T> {
+public interface ValueFilter<T> {
     /**
      * 必须的注解
      *
